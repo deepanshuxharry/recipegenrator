@@ -23,7 +23,7 @@ export default function Navbar() {
             className={`text-white hover:text-orange-100 transition-colors duration-200 relative group
               ${location.pathname === "/" ? "font-semibold" : ""}`}
           >
-            Homee
+            Home
             <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-white transition-all duration-200 group-hover:w-full"></span>
           </Link>
           <Link
